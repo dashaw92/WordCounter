@@ -1,6 +1,6 @@
 ### Word counter
 
-This is a program that hooks the keyboard at a low level thanks [this library](http://www.dylansweb.com/2014/10/low-level-global-keyboard-hook-sink-in-c-net/).
+This is a program that hooks the keyboard at a low level thanks to [this library](http://www.dylansweb.com/2014/10/low-level-global-keyboard-hook-sink-in-c-net/).
 
 If a letter key is pressed, it is appended to a string `current_word`. When the space or enter keys are pressed, the `current_word` is checked against all subscribed words, and if it matches any words, that word's counter is incremented by one. The `current_word` value is reset to `""`, ready to parse the next word.
 
